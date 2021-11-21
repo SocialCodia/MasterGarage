@@ -1,0 +1,46 @@
+
+.card{
+    background: white;
+    width: 100px;
+    height: 130px;
+    padding: 4px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.whiteSpace{
+    padding-bottom: 55px ;
+}
+
+.card img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.card p{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+
+
+.card span{
+    color: #bbbbbb;
+    font-size: 10px;
+}
+
+.card .body img{
+    height: 18px;
+    width: 18px;
+    padding: 5px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

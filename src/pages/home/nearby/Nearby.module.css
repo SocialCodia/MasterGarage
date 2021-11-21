@@ -1,0 +1,53 @@
+
+.card{
+    background: white;
+    width: 150px;
+    height: 130px;
+    padding: 4px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.card img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.card p{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+}
+
+
+
+.card span{
+    color: #bbbbbb;
+    font-size: 10px;
+}
+
+.card .body img{
+    height: 18px;
+    width: 18px;
+    padding: 5px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+    &::-webkit-scrollbar {
+       display: none;
+    }
+}

@@ -1,0 +1,18 @@
+
+.nav{
+    margin: 0px;
+    padding: 0px;
+    background:#ffd700; 
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding: 15px;
+}
+
+.bell{
+    padding: 15px;
+}
