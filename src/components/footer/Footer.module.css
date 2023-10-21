@@ -1,0 +1,32 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    height: 55px;
+    justify-content: center;
+    line-height: 55px;
+}
+
+.navItem{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 4px 16px;
+    font-size: 17px;
+}
+
+.navItem img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: -100;
+}
+
+.navItem p{
+    margin-top: -10px;
+    font-size: 8px;
+    color: black;
+    padding: 0;
+    margin-top: -50px;
+}
